@@ -1,9 +1,5 @@
 import PropTypes from "prop-types";
 
-AccountList.propTypes = {
-  accounts: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
-
 const AccountList = ({ accounts }) => {
   return (
     <div className="mt-4 flex justify-center">
@@ -25,6 +21,10 @@ const AccountList = ({ accounts }) => {
       </div>
     </div>
   );
+};
+
+AccountList.propTypes = {
+  accounts: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default AccountList;

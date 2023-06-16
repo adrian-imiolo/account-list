@@ -1,4 +1,5 @@
 module.exports = {
+  testRunner: "jest-circus/runner",
   transform: {
     "^.+\\.(js|jsx)$": "babel-jest",
   },

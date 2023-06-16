@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { fetchAccounts } from "./services/api";
 import AccountList from "./components/AccountList";
 import { CircularProgress } from "@mui/material";
+import React from "react";
 
 const App = () => {
   const [accounts, setAccounts] = useState([]);
